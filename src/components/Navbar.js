@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const NavBar = () => {
   return (
     <div>
-      <nav className="bg-slate-50 fixed z-10 mx-auto mr-auto w-screen max-w-[80vw]">
+      <nav className="bg-slate-50 fixed z-10 mx-auto mr-auto w-screen max-w-[100vw]">
         <ul>
           <li>
             <Link to="/">Home</Link> {/* Add a Link to the Home page */}
